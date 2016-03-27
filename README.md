@@ -1,2 +1,2 @@
-# estacion-meteorologica-con-arduino-y-firebase
-Una estación meteorológica con Arduino, Node.js y Firebase
+# Agroduino
+Una estación meteorológica con Arduino, Node.js, OpenWeatherMap y Firebase
