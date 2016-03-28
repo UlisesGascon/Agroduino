@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Agroduino</title>
+    <meta name="description" content="Una estación meteorológica con Arduino, Node.js y Firebase">
+    <meta name="author" content="Ulises Gascón">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="http://bootswatch.com/paper/bootstrap.min.css">
+    <link href="css/owfont-regular.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="page-header">
+            <h3 id="titulo_lista">Agroduino v1.0.0</h3>
+        </div>
+        <div id="cargando">
+            <img src="img/john.gif">
+            <h4>Cargando...</h4>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6" id="colAhora"></div>
+            <div class="col-md-6" id="colContaminacion"></div>
+        </div>
+
+        <hr>
+
+        <div class="row" id="row-contenido">
+            <div class="col-md-2" id="col1"></div>
+            <div class="col-md-2" id="col2"></div>
+            <div class="col-md-2" id="col3"></div>
+            <div class="col-md-2" id="col4"></div>
+            <div class="col-md-2" id="col5"></div>
+            <div class="col-md-2" id="col6"></div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
