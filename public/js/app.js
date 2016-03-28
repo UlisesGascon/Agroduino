@@ -74,7 +74,7 @@
                                 
                             }
 
-                                document.getElementById("col" + y).innerHTML += contenido;
+                                document.getElementById("col" + y).innerHTML = contenido;
                         }
 
                         // Petición Datos Contaminacion
