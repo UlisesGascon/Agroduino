@@ -1,0 +1,15 @@
+{
+  "name": "Agroduino",
+  "version": "1.0.0",
+  "description": "Una estación meteorológica con Arduino, Node.js, OpenWeatherMap y Firebase",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ulises Gascón",
+  "license": "GPLv3",
+  "dependencies": {
+    "firebase": "^2.4.1",
+    "serialport": "^2.0.6"
+  }
+}
