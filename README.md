@@ -1,6 +1,8 @@
 # Agroduino
 Una estación meteorológica con Arduino, Node.js y Firebase
 
+![Portada](img/portada.jpg)
+
 
 ### Datos en formato JSON
 
@@ -55,5 +57,15 @@ Una estación meteorológica con Arduino, Node.js y Firebase
 }
 ```
 
+### [Demo](http://ulisesgascon.github.io/Agroduino)
+![Portada](img/captura.jpg)
 
+### Montaje
+![Portada](img/montaje.jpg)
+
+### Detalle sensores
+![Portada](img/sensores.jpg)
+
+### Iluminación
+![Portada](img/iluminacion.jpg)
 
