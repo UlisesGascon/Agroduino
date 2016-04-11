@@ -58,10 +58,10 @@ Una estación meteorológica con Arduino, Node.js y Firebase
 ```
 
 ### [Demo](http://ulisesgascon.github.io/Agroduino)
-![Portada](img/captura.jpg)
+![Portada](img/captura.png)
 
 ### Montaje
-![Portada](img/montaje.jpg)
+![Portada](img/montaje.png)
 
 ### Detalle sensores
 ![Portada](img/sensores.jpg)
